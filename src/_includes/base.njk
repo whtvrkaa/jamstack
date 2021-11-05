@@ -21,6 +21,9 @@
 </script>
     <body>
         {% include 'header.njk' %}
+        <main>
         {{content | safe}}
+        </main>
+        {% incluse 'footer.njk' %}
     </body>
 </html>
